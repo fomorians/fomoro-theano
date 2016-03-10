@@ -1,0 +1,3 @@
+name = "theano-test"
+repo = "https://github.com/jimfleming/theano-test.git"
+description = "Testing Theano GPU support."
