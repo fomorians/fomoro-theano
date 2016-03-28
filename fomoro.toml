@@ -1,4 +1,4 @@
 name = "theano-test"
-repo = "https://github.com/jimfleming/theano-test.git"
+repo = "https://github.com/fomorians/fomoro-theano.git"
 description = "Testing Theano GPU support."
 environment = "theano"
