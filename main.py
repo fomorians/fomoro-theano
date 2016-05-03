@@ -133,7 +133,7 @@ def main(num_epochs=100):
         test_acc / test_batches * 100))
 
     # Dump the network weights to a file like this:
-    np.savez(path.join(checkpoint_path, 'model.npz'), *lasagne.layers.get_all_param_values(network))
+    np.savez(os.path.join(checkpoint_path, 'model.npz'), *lasagne.layers.get_all_param_values(network))
 
 if __name__ == '__main__':
     main()
