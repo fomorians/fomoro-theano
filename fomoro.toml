@@ -1,4 +1,0 @@
-name = "convnet"
-repo = "https://github.com/fomorians/fomoro-theano.git"
-description = "Testing Theano GPU support."
-environment = "theano"
